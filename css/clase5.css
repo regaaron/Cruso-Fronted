@@ -33,9 +33,9 @@ body{
     display: none;
 }
 .title{
-font-size: var(--lg);
-margin-bottom: 36px;
-text-align: start;
+    font-size: var(--lg);
+    margin-bottom: 36px;
+    text-align: start;
 }
 
 
