@@ -12,6 +12,8 @@
 body{
     margin: 0;
     font-family: 'Quicksand',sans-serif;
+    background-color: #0D0D0D;
+
 }
 .destop-menu{
 
@@ -20,6 +22,7 @@ body{
     border: 1px  solid var(--very-ligth-pink);
     border-radius: 6px;
     padding: 20px 20px 0 20px;
+    
 }
 .destop-menu ul{
     list-style: none;
@@ -42,7 +45,7 @@ body{
 
 }
 .destop-menu ul li a{
-    color: var(--black);
+    color: var(--very-ligth-pink);
     text-decoration: none;
     margin-bottom: 20px;
     display: inline-block;

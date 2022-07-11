@@ -12,6 +12,8 @@
 body{
     margin: 0;
     font-family: 'Quicksand', sans-serif;
+    background-color: #737373;
+
 }
 
 .menu{
@@ -49,7 +51,7 @@ nav{
 .navbar-rigth ul li a{
     text-decoration: nonde;
     color: var(--very-ligth-pink);
-    border: 1px solid  var(--white);
+    /* border: 1px solid  var(--white); */
     padding: 8px;
     border-radius: 4px;
 }
