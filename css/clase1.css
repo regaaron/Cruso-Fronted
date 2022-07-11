@@ -13,6 +13,7 @@
 body{
     margin: 0;
     font-family: 'Quicksand', sans-serif;
+    background-color: #262626;
 }
 .login{
     width: 100%;
@@ -55,16 +56,21 @@ text-align: center;
 .label{
     font-size: var(--sm);
     font-weight: bold;
+    color: var(--very-ligth-pink);
     margin-bottom: 4px;
 }
 .input{
-    background-color: var(--text-input-field);
+    background-color: #737373;
     border: none;
     border-radius: 8px;
     height: 30px;
     font-size: var(--md);
     padding: 6px;
     margin-bottom: 12px;
+    color: var(--very-ligth-pink);
+}
+.input::placeholder{
+    color: var(--very-ligth-pink);
 }
 .primary-button{
     background-color: var(--hospital-green);
@@ -76,7 +82,9 @@ text-align: center;
     font-size: var(--md);
     font-weight: bold;
     height: 50px;
-}
+  
+
+}   
 
 .login-button{
     margin-top: 14px;
@@ -88,3 +96,5 @@ text-align: center;
         display: block;
     }
 }
+
+@

@@ -13,6 +13,7 @@
 body{
     margin: 0;
     font-family: 'Quicksand', sans-serif;
+    background-color: #262626;
 }
 .login{
     width: 100%;
@@ -52,16 +53,33 @@ body{
     font-size: var(--sm);
     font-weight: bold;
     margin-bottom: 4px;
+    color: var(--very-ligth-pink);
 }
 .input{
-    background-color: var(--text-input-field);
+    background-color: #737373 ;
     border: none;
     border-radius: 8px;
     height: 30px;
     font-size: var(--md);
     padding: 6px;
     margin-bottom: 12px;
+    color: var(--very-ligth-pink) ;
+    
 }
+
+
+/* .input-password{
+    background-color: #737373 !important;
+    color: var(--very-ligth-pink);
+} */
+/* .input-password::placeholder{
+    color: var(--very-ligth-pink);
+
+}  */
+.input::placeholder{
+    color:  var(--very-ligth-pink);
+}
+
 .input-email{
     margin-bottom: 22px;
 }
